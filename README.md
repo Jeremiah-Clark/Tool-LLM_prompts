@@ -1,33 +1,45 @@
-# LLM-prompts
+# LLM Prompts
 
-This repository contains a collection of prompts for use with LLMs. Some are original, some I originally found somewhere. 
-All of them have been edited and tweaked through use.
+This repository is a collection of prompts for working with LLMs. 
+Some are original, others are adapted from ideas I found and refined over time through actual use.
 
-## Standing Instructions
+## How to Use These Prompts
 
-Most LLMs allow the user to add standing instructions to customize how the model behaves. 
-Most allow similar instructions to be added on a per-project basis, which is even more powerful.
-The "standing_instruction" prompts are meant for these instructions.
+1. Choose your tool: Most LLMs (ChatGPT, Claude, Gemini) have a settings area for "Custom Instructions" or "System Prompts."
+2. Set your defaults: Copy a file from the standing_instruction folder into that settings area to give the AI a permanent "personality."
+3. Run specific tasks: For one-off needs (like summarizing an article), copy a prompt from the single_tasks folder directly into your active chat.
 
-Since some have character limits, all are 1500 characters or fewer and ready to be copy/pasted.
+> [!TIP]
+> 
+> If your LLM supports "Projects," you can upload these .md files directly to give the AI context for a specific workspace.
 
-- **global_default.md** - This instruction set is the basis for the others; it's the generic default that hits all the points I really care about
-- **minimalist_utility.md** - Sometimes you need a quick answer, this helps to shortcut some of the fluff
-- **brainstormer.md** - Useful for stress testing or expanding ideas constructively
-- **researcher.md** - Instructions for using an LLM as a research assistant
-- **coding_tasks.md** - Helps with writing and editing clean code
+### Standing Instructions
 
-## Single Tasks
+Most LLM tools let you define standing instructions—persistent guidelines that shape how the model responds across conversations (for example: tone, level of detail, or formatting rules). 
+Many tools also support project-specific instructions, which allow you to tailor behavior even further. 
+The `standing_instruction` prompts in this repo are designed for that purpose.
 
-The rest of the prompts are individual tasks that I often need, so I recorded and refined them.
+Because many tools impose character limits, each prompt is 1,500 characters or fewer and ready to copy/paste.
 
-- **article_summary.md** - For creating a short summary of an article or document to make finding a saved story easier
-- **bibliography_in_cse_format.md** - I like the CSE (Council of Science Editors) citation format; this makes adding a website to the bibliography effortless
-- **manuscript_review.md** - I created this prompt to help mechanically edit manuscripts before showing them to human readers
-- **news_story_summary.md** - Created as an instruction for a news app that included a customizable AI summary feature
-- **text_editing_rules.md** - A compilation of general text editing rules to help with editing manuscripts
+- `global_default.md` — Baseline instruction set covering the core behaviors I want from an LLM. Use this as a starting point.
+- `minimalist_utility.md` — Optimized for fast, no-frills answers. Useful when you want minimal verbosity.
+- `brainstormer.md` — Helps expand, challenge, and stress-test ideas in a structured way.
+- `researcher.md` — Guides the model to act as a structured research assistant (summaries, sources, synthesis).
+- `coding_tasks.md` — Focuses the model on writing, reviewing, and refining clean, readable code.
+
+### Single-Task Prompts
+
+The rest of the prompts are designed for one-off tasks. 
+Unlike standing instructions (which shape ongoing behavior), these are meant to be used as needed. 
+These can be used while standing instructions are still in place.
+
+- `article_summary.md` — Generates short summaries to make saved articles easier to scan later.
+- `bibliography_in_cse_format.md` — Formats sources in CSE (Council of Science Editors) style for quick bibliography entries.
+- `manuscript_review.md` — Performs mechanical edits on manuscripts before human review.
+- `news_story_summary.md` — Summarizes news stories with a structure suited for quick reading.
+- `text_editing_rules.md` — A reusable set of editing rules for improving clarity and consistency in text.
 
 ## License
 
-I don't know, can you even license these things? 
-I don't care enough, so my default MIT license works.
+This project is released under the MIT License. 
+The prompts are a mix of original work and adapted ideas, shared here for general use.
