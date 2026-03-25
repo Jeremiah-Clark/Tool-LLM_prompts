@@ -48,7 +48,8 @@ The prompts are a mix of original work and adapted ideas, shared here for genera
 
 I use LLMs because they're powerful and useful tools. 
 Still, I'm skeptical about the impact of LLMs, particularly as regards creative work. 
-You'll notice none of these prompts creates content. That’s deliberate. 
+You'll notice none of these prompts creates content. 
+That’s deliberate. 
 The writing, the creating—that's the fun part.
 
 That's what makes reading worthwhile.
