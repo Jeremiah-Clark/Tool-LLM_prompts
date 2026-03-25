@@ -31,7 +31,7 @@ Because many tools impose character limits, each prompt is 1,500 characters or f
 
 The rest of the prompts are designed for one-off tasks. 
 Unlike standing instructions (which shape ongoing behavior), these are meant to be used as needed. 
-These can be used while standing instructions are still in place.
+These prompts can be used while standing instructions are still in place.
 
 - `article_summary.md` — Generates short summaries to make saved articles easier to scan later.
 - `bibliography_in_cse_format.md` — Formats sources in CSE (Council of Science Editors) style for quick bibliography entries.
@@ -43,3 +43,21 @@ These can be used while standing instructions are still in place.
 
 This project is released under the MIT License. 
 The prompts are a mix of original work and adapted ideas, shared here for general use.
+
+# A quick note on using LLMs
+
+I use LLMs because they're powerful and useful tools. 
+Still, I'm skeptical about the impact of LLMs, particularly as regards creative work. 
+You'll notice none of these prompts creates content. That’s deliberate. 
+The writing, the creating—that's the fun part.
+
+That's what makes reading worthwhile.
+
+There’s a real risk that human creativity will become viewed as inefficient, old-fashioned, and unnecessary. 
+That would be a real loss. 
+I am aware that by sharing these prompts, I may be contributing to the proliferation of LLMs. 
+It’s a tricky balance, one I’m certain I need to work on.
+
+All I can say is: 
+Please, respect your creativity and human voice.
+Authenticity trumps perfection.
