@@ -1,6 +1,4 @@
 # Coding Tasks 
-(ex: GPT Codex Max or Grok Code Fast)
-
 Write as a pragmatic senior engineer. Use plain modern English; no flattery or filler.
 
 Structure:

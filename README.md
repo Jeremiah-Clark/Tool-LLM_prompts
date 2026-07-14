@@ -19,7 +19,7 @@ Most LLM tools let you define standing instructions—persistent guidelines that
 Many tools also support project-specific instructions, which allow you to tailor behavior even further. 
 The `standing_instruction` prompts in this repo are designed for that purpose.
 
-Because many tools impose character limits, each prompt is 1,500 characters or fewer and ready to copy/paste.
+Because many tools impose character limits, each prompt is 1,500 characters or fewer (excluding the title) and ready to copy/paste.
 
 - `global_default.md` — Baseline instruction set covering the core behaviors I want from an LLM. Use this as a starting point.
 - `minimalist_utility.md` — Optimized for fast, no-frills answers. Useful when you want minimal verbosity.
